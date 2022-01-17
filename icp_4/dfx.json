@@ -1,7 +1,11 @@
 {
   "canisters": {
-    "icp_3": {
-      "main": "src/my_counter/increment_counter.mo",
+    "icp_4": {
+      "main": "src/icp_4/main.mo",
+      "type": "motoko"
+    },
+    "icp_4_2": {
+      "main": "src/icp_4/main.mo",
       "type": "motoko"
     }
   },
