@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>MicroBlog</title>
+  <base href="/" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  <style>
+    div {
+      display: block;
+    }
+    .left {
+      padding-right: 10px;
+      background-color: rgb(252, 252, 252);
+      box-shadow: 5px 5px 10px grey;
+      border-radius: 10px;
+      border: 1px solid #0e0e0e;
+      margin-bottom: 20px;
+    }
+    .right {
+      padding-right: 10px;
+      background-color: rgb(252, 252, 252);
+      box-shadow: 5px 5px 10px grey;
+      border-radius: 10px;
+      border: 1px solid #0e0e0e;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>MicroBlog</h1>
+  </header>
+  <main>
+    <label for="message">Do post</label>
+    <textarea id="message"></textarea>
+    <button id="post" onclick="">Posts</button>
+    <div>
+      <h3>My Follows</h3>
+      <section id="follows">
+      </section>
+    </div>
+    <div>
+      <h3>My Posts</h3>
+      <section id="posts">
+      </section>
+    </div>
+    <div>
+      <h3>Timeline</h3>
+      <section id="timeline">
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>
